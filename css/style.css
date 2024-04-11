@@ -1,0 +1,173 @@
+/* General atributes */
+:root {
+    --black: #212121;
+    --grey: #757575;
+    --light-grey: rgba(255, 255, 255, 0.6);
+    --white: #fff;
+    --blue: #2196f3;
+    --other-blue: #188ce8;
+    --dark-grey:#2f303a;
+    --other-grey: #f5f4fa;
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+}
+
+body {
+   font-family: var(--primary-font);
+   color: var(--black);
+   font-weight: 500;
+   font-style: normal;
+   line-height: auto;
+   letter-spacing: 0.03em;
+}
+
+a {
+    text-decoration: none;
+    color:var(--black);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header & Footer */
+
+.logo-h, .logo-f {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.logo-f {
+    color: var(--white);
+}
+
+.logo-item {
+    color: var(--blue);
+}
+
+.link-h, .link-menu {
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: auto;
+}
+
+.link-h {
+    color:var(--grey);
+}
+
+.link-h:hover, .link-menu:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.link-h:focus, .link-menu:focus {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--dark-grey);
+}
+address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: var(--white);
+    font-style: normal;
+}
+
+.link-f {
+    color: var(--white);
+}
+.link-f:hover, .link-f:focus {
+    color: var(--light-grey);
+}
+
+/*Main Page*/
+
+/* Hero section*/
+h1 {
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    line-height: 136%;
+    color: var(--white);
+    background-color: var(--dark-grey);
+}
+
+.main-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--other-blue);
+}
+.main-button:hover, .main-button:focus {
+    background-color: var(--blue);
+    cursor: pointer;
+}
+
+/* Description section*/
+
+.team-characteristics {
+    font-size: 14px;
+}
+
+.team-ch__title {
+    font-weight: 700;
+}
+.team-ch__description {
+    font-weight: 400;
+    line-height: 171%;
+    color: var(--grey);
+}
+
+/* 'What We Do' section */
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+/*'Our Team' section*/
+.team-member {
+    font-size: 16px;
+}
+
+.team-member__title {
+    color: var(--grey);
+    font-weight: 400;
+}
+
+/* Portfolio Page particularities*/
+
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    background-color: var(--other-grey);
+}
+
+.filter-button:hover, .filter-button:focus {
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+}
+
+/*Projects from portfolio*/
+
+.project-item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+}
+
+.project-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: var(--grey);
+}
