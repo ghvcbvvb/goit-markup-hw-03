@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="node_modules/modern-normalize/modern-normalize.css"/>
 </head>
 <body>
     <!--Header with Company's Abouts -->
@@ -30,7 +33,7 @@
             </ul>
         </nav>
         <!--Contact Data-->
-        <ul>
+        <ul class="header-contact-list">
             <li><a class="link-h" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="link-h" href="tel:+1212-772-4150">+1 212-772-4150</a></li>
         </ul>
@@ -38,33 +41,33 @@
     <!--Main Content-->
     <main>
     <!--Hero section-->
-    <section>
+    <section class="hero-section">
         <h1>EFFECTIVE SOLUTIONS FOR <br>YOUR BUSINESS</h1>
         <button class="main-button" type="button">Request our service</button>
     </section>
     <!--Descriptions section-->
-    <section>
-    <div class="team-characteristics">
+    <section class="team-characteristics">
+    <div class="team-ch-item">
         <p class="team-ch__title">ATTENTION TO DETAILS</p>
-        <p class="team-ch__description">We go into all the details and processes <br> of your business to develop a <br> customized solution.</p>
+        <p class="team-ch__description">We go into all the details and processes of your business to develop a customized solution.</p>
     </div>
-    <div class="team-characteristics">
+    <div class="team-ch-item">
         <p class="team-ch__title">PUNCTUALITY</p>
-        <p class="team-ch__description">With us, you can feel safe and secure. <br>An important principle of the company: <br> respect your time and deadlines.</p>
+        <p class="team-ch__description">With us, you can feel safe and secure. An important principle of the company: respect your time and deadlines.</p>
     </div>
-    <div class="team-characteristics">
+    <div class="team-ch-item">
         <p class="team-ch__title">PLANNING</p>
-        <p class="team-ch__description">You will be able to observe and <br> participate in every phase of solution <br> development and implementation.</p>
+        <p class="team-ch__description">You will be able to observe and participate in every phase of solution development and implementation.</p>
     </div>
-    <div class="team-characteristics">
+    <div class="team-ch-item">
         <p class="team-ch__title">MODERN TECHNOLOGIES</p>
-        <p class="team-ch__description">We use innovative tools to solve <br> assigned tasks. It's time to simplify work <br> processes.</p>
+        <p class="team-ch__description">We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
     </div>
     </section>
     <!--'What We Do' section-->
     <section>
-        <h2>What we do</h2>
-        <ul>
+        <h2 class="what-we-do-title">What we do</h2>
+        <ul class="what-we-do">
             <li><img src="images/what-we-do-1.jpg" alt="Coding" width="370" height="294"></li>
             <li><img src="images/what-we-do-2.jpg" alt="Web applications" width="370" height="294"></li>
             <li><img src="images/what-we-do-3.jpg" alt="Web designing" width="370" height="294"></li>
@@ -72,24 +75,24 @@
     </section>
     <!--'Our Team' section-->
     <section>
-        <h2>Our Team</h2>
-        <div>
-            <div class="team-member">
+        <h2 class="our-team-title">Our Team</h2>
+        <div class="cards">
+            <div class="card">
                 <img src="images/cristopher.jpg" alt="Cristopher's portret" width="270" height="260">
                 <p class="team-member__name">Christopher Walker</p>
                 <p class="team-member__title">Product Designer</p>
             </div>
-            <div class="team-member">
+            <div class="card">
                 <img src="images/kylie.jpg" alt="Kylie's portret" width="270" height="260">
                 <p class="team-member__name">Kylie Evans</p>
                 <p class="team-member__title">Frontend Developer</p>
             </div>
-            <div class="team-member">
+            <div class="card">
                 <img src="images/ryan.jpg" alt="Ryan's portret" width="270" height="260">
                 <p class="team-member__name">Ryan Harris</p>
                 <p class="team-member__title">Marketing</p>
             </div>
-            <div class="team-member">
+            <div class="card">
                 <img src="images/tyler.jpg" alt="Tyler's portret" width="270" height="260">
                 <p class="team-member__name">Tyler Moore</p>
                 <p class="team-member__title">UI Designer</p>
